@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.partie1 {
+    padding: 30px;
+    background-color: #E28625;
+}
+
+.partie1 h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.partie1 p {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.partie1 button {
+    border-radius: 30px;
+    color: #E28625;
+    border: none;
+    padding: 13px;
+    border: 2px solid white;
+}
+
+.partie2 {
+    padding: 30px;
+    background-color: #006971;
+}
+
+.partie2 h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.partie2 p {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.partie2 button {
+    border-radius: 30px;
+    color: #006971;
+    border: none;
+    padding: 13px;
+    border: 2px solid white;
+}
+
+.partie3 {
+    padding: 30px;
+    background-color: #004140;
+}
+
+.partie3 h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.partie3 p {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.partie3 button {
+    border-radius: 30px;
+    color: #004140;
+    border: none;
+    padding: 13px;
+    border: 2px solid white;
+}
+
+.partie1 button:hover {
+    color: white;
+    background-color: #E28625;
+    border: 2px solid white;
+}
+
+.partie2 button:hover {
+    color: white;
+    background-color: #006971;
+    border: 2px solid white;
+}
+
+.partie3 button:hover {
+    color: white;
+    background-color: #004140;
+    border: 2px solid white;
+}
+
+@media screen and (min-width : 321px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
